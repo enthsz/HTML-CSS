@@ -1,0 +1,17 @@
+@charset "UTF_8";
+body{
+    background-color: lightsteelblue;
+}
+
+h1{
+    color: red;
+    background-color: cyan;
+}
+
+h2{
+    color: blue;
+}
+
+p{
+    text-align: justify;
+}

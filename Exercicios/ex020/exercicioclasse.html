@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio</title>
+    <style>
+        
+
+        .cursovideo{
+            background-color: black;
+            color: white;
+        }
+
+        .cursovideo::before{
+            content: '> ';
+        }
+
+        .cursovideo::after{
+            content: ' <';
+        }
+
+       .cursovideo:hover{
+        color: aqua ;
+       }
+
+        a{
+            color: #800404;
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration: underline;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando um Link</h1>
+    <p class="github">Para aprender HTML5 e CSS3, acesse o <a href="www.https//youtube.com" class="ada">Github do Guanabara</a></p>
+
+    <p>Para acompanhar os cursos, acesse o <a href="www.https//youtube.com" class="cursovideo">Canal do Curso em Video</a></p>
+</body>
+</html>

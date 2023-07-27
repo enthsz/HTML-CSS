@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/30.ico" type="image/x-icon">
+    <title>Imagem flexivel</title>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Aqui aparecerá uma imagem flexivel</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/cropcell.jpg" width="500" height="450" type="image/jpeg">
+        <source media="(max-width: 1050px)" srcset="imagens/crop.jpg" width="800px" height="500px" type="image/jpeg">
+        <img src="imagens/2000.jpg" width="1000px" height="900px" alt="Imagem de um arranha ceu">
+    </picture>
+</body>
+</html>

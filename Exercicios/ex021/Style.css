@@ -1,0 +1,64 @@
+@charset "UTF_8";
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+
+body{
+    background-color: dimgray;
+    margin: 0px;
+}
+
+
+
+header{
+    background-color: white;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 18px;
+}
+
+
+main{
+    background-color: white;
+    padding: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 27px;
+    box-shadow: 3px 2px 16px 1px rgba(0, 0, 0, 0.405);
+}
+
+nav{
+    background-color: gray;
+    box-shadow: 4px 2px 7px 1px rgba(0, 0, 0, 0.347)
+}
+
+nav > a{
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+section{
+    background-color: #c5c4c4;
+    padding: 5px;
+    margin: 5px;
+}
+
+aside{
+    background-color: rgb(121, 121, 121);
+}
+
+footer{
+    background-color: black;
+    margin-top: 275px;
+    padding: 20px;
+}
+
+footer > p{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+@import url(https://db.onlinewebfonts.com/c/bb765b26c7ce04218d381d3bfc0f4ad7?family=Westway+W00+Westbound);
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fonte/coolvetica/coolvetica\ condensed\ rg.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #36C374, #268851, #1A5C38);
+    min-height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0px;
+    background-color: #82D9A0;
+
+}
+
+
+
+header > h1{  
+    text-align: center;
+    font-family: 'idroid', Times, sans-serif;
+    margin: 0px;
+    color: white;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 40px;
+    padding: 40px;
+    text-shadow: 3px -4px 0px rgba(0, 0, 0, 0.362);
+}
+
+header > p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #CCD3D9;
+    text-align: center;
+    margin-top: 1px;
+}
+
+nav{
+    margin: auto;
+    padding: 10px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #CCD3D9;
+    padding: 5px;
+}
+
+nav > a:hover{
+    background-color: #0296029a;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    margin-top: -20px;
+    box-shadow: 1px 1px 7px 1px #0000003d;
+    min-width: 320px;
+    max-width: 1031px;
+}
+
+main p{
+    line-height: 1.5em;
+    font-size: 1em;
+}
+
+main strong{
+    color: #26885094;
+    font-weight: bold;
+}
+
+main a{
+    background-color: #36c373c1;
+    text-decoration: none;
+
+}
+
+main a::after{
+    content: '\1F517\00A0';
+}
+
+article{
+    padding-left: 12px;
+    padding-right: 12px;
+    text-align: justify;
+}
+
+article > h2{
+    font-family: "Westway W00 Westbound", Arial, Helvetica, sans-serif;
+    color: #1A5C38;
+}
+
+article  h3{
+    font-family: "Westway W00 Westbound", Arial, Helvetica, sans-serif;
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #83e1ad, transparent);
+
+}
+article > p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-indent: 30px;
+}
+
+
+
+.unico{
+    text-indent: 5px;
+}
+
+.ha{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+} 
+
+
+div.video{
+    position: relative;
+    padding-bottom: 50%;
+}
+
+div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+img{
+    width: 100%;
+}
+
+
+.contentextra > h4{
+    background-image: linear-gradient(to left, #35AA69, #50B47E, #35AA69);
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+
+.green{
+    background-color: #36c3736f;
+    margin-top: -25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.green > p{
+    padding: 10px;
+    text-indent: 20px;
+}
+
+.green > .alinhar{
+    margin-top: -25px;
+}
+
+.green > ul{
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+}
+
+
+.fim > p{
+    text-indent: 20px;
+    
+}
+
+footer{
+    color: white;
+    background-color: green;
+    text-align: center;
+    margin-top: 50px; /* Adicione uma margem superior para mover o footer para baixo */
+    padding: 10px
+    ;
+}
