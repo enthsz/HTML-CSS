@@ -24,16 +24,58 @@ html, body{
 header{
     background-color: #1e2019;
     color: #d3d0cb;
-    text-align: center;
-    height: 500px;
+    height: 300px;
     background-image: url('31f0ab6a2bc34f0a97eb4833d51c47db.png');
     background-repeat: no-repeat;
     background-position: center center;
-    }
-
-header > img{
-    padding-top: 8em;
-    padding-bottom: 8em;
 }
+
+nav{
+    display: inline-block;
+}
+
+main h1, p{
+    padding: 20px;
+}
+
+div{
+    padding-top: 10px;
+}
+
+div h1, p{
+    padding-bottom: 15px;
+}
+
+article{
+    background-color: var(--cor2);
+    height: 500px;
+    background-image: url('pexels-chris-f-1283219.jpg');
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 10px;
+}
+
+article p {
+    display: inline-block;
+    background-color: #00000075;
+    color: white;
+    font-size: 3vw;
+    line-height: 80px;
+}
+
+footer{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
 
 
