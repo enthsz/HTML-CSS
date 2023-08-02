@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        thead th.thup {
+            border: 1px solid black;
+            padding: 10px;
+            background-color: #575757;
+            color: white;
+            font-weight: bolder;
+        }
+
+        tbody th {
+            padding: 20px; 
+            border: 1px solid black;
+        }
+
+        tbody td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        .media {
+            background-color: #575757;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2" class="thup">Área</th>
+                <th rowspan="2" class="thup">Disciplinas</th>
+                <th colspan="2" class="thup">Notas</th>
+                <th rowspan="2" class="thup">Média</th>
+            </tr>
+            <tr>
+                <th class="thup">Nota 1</th>
+                <th class="thup">Nota 2</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="4">Exatas</th>
+                <td>Matematica</td>    
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Fisica</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Quimica</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <th class="media" colspan="5">
+                    Media dos exames
+                </th>
+            </tr>
+
+            <tr>  
+                <th rowspan="2">Humanas</th>
+                <td>Historia</td> 
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>00</td>
+                <td>00</td>
+                <td>00</td>
+            </tr>
+
+            <tr>
+                <th class="media" colspan="4">
+                    Media dos exames
+                    <td style="background-color: #575757;">00</td>
+                </th>
+            </tr>
+
+        </tbody>
+    </table>
+</body>
+</html>
